@@ -1,3 +1,3 @@
-# Terraform Azure Verified Module template
+# Terraform Azure Verified Module: CI/CD sandbox runners
 
-This minimal AzAPI module template creates one Azure resource group.
+Azure Container Apps Sandboxes group (via AzAPI) for ephemeral CI/CD runners.
