@@ -24,7 +24,7 @@ run "defaults" {
   command = apply
 
   assert {
-    condition     = azapi_resource.sandbox_group.type == "Microsoft.App/sandboxGroups@2026-02-01-preview"
+    condition     = azapi_resource.sandbox_group.type == "Microsoft.App/sandboxGroups@2026-07-01"
     error_message = "The module must deploy a sandbox group."
   }
 

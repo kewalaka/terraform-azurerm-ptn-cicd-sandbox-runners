@@ -1,5 +1,5 @@
 locals {
-  api_version = "2026-02-01-preview"
+  api_version = "2026-07-01"
 
   # Built-in role that grants access to the sandbox data plane (create/exec/snapshot sandboxes).
   sandbox_data_owner_role_definition_id = "/subscriptions/${local.subscription_id}/providers/Microsoft.Authorization/roleDefinitions/c24cf47c-5077-412d-a19c-45202126392c"
