@@ -4,7 +4,7 @@ Infrastructure for CI/CD runners on [Azure Container Apps (ACA) Sandboxes](https
 
 An AzAPI pattern module (no `azurerm`), inspired by [`avm-ptn-cicd-agents-and-runners`](https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners).
 
-> **Preview.** ACA Sandboxes uses `Microsoft.App/sandboxGroups@2026-02-01-preview`.
+> ACA Sandboxes uses the GA `Microsoft.App/sandboxGroups@2026-07-01` ARM API. Individual sandboxes (data plane) are still preview.
 
 ## What it deploys
 
